@@ -1,0 +1,2 @@
+fatorial 8;40320
+fatorial 0;1

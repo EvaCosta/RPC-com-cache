@@ -1,0 +1,6 @@
+subtração 9 5 6;-2
+subtração 19 5 6;8
+subtração 34 5 6;23
+subtração 45 5 6;34
+subtração 50 5 6;39
+subtração -5 -5;0

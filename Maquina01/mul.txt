@@ -1,0 +1,4 @@
+multiplicação 10 5 6;300
+multiplicação 0 -1;0
+multiplicação -1 -1;1
+multiplicação 15 2;30
