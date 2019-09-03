@@ -22,10 +22,6 @@ def realiza_operacao(res):
         resposta = int(res[1])
         for digito in res[2:]:
             resposta -= int(digito)
-    elif res[0] == "multiplicação":
-        resposta = 1
-        for digito in res[1:]:
-            resposta *= int(digito)
     elif res[0] == "fatorial":
         i = 2
         resposta = 1
@@ -47,8 +43,6 @@ def connection(connectionSocket, addr):
             cache("soma.txt",message, res, connectionSocket)
         if(res[0] == "subtração"):
             cache("sub.txt",message, res, connectionSocket)
-        if(res[0] == "multiplicação"):
-            cache("mul.txt",message, res, connectionSocket)
         if(res[0] == "fatorial"):
             cache("fat.txt",message, res, connectionSocket)
 

@@ -5,6 +5,9 @@ PORT = 12349
 
 while True:
     v = input("Fim para sair\n")
+
+
+    
     operacoes = Operacoes(HOST, PORT)
 
     if v == "fim":  

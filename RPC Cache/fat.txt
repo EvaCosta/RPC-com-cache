@@ -1,0 +1,2 @@
+fatorial 0;1
+fatorial 15 2;1307674368000
